@@ -1,0 +1,39 @@
+.theme_color {color: #273c75}
+/*
+#16a085
+#8e44ad
+#273c75
+#3498db
+*/
+.text_outer {background-image: url(../images/blank.png); background-repeat: no-repeat; background-size: cover; height: 300px; display: block;overflow: hidden; margin: 0; text-align: center; }
+.text_inner {padding: 120px 20px 0 20px ; display: block; font-size: 65px ; line-height: 60px; text-shadow: 0px 3px 3px #eee; color: #2980b9; text-decoration: none }
+.popup_footer {position: fixed !important; bottom: 10px; right: 10px; z-index: 9; text-decoration: none !important}
+.popup_footer span {background: rgba(41, 128, 185, .8); color: #fff; padding: 10px; border-radius: 5px; }
+.popup_footer span:hover {background: rgba(41, 128, 185, 1); color: #fff; padding: 10px; border-radius: 5px; }
+.our_client h4 {height: 50px; padding-top: 30px}
+.our_client .image_wrapper {padding: 50px; }
+.our_client .desc {text-align: left; padding: 7px}
+.popup_footer_content ul  {margin: 0 15px}
+.popup_footer_content ul li {margin-bottom: 10px; list-style:disc !important}
+.popup_footer_content p {line-height: 20px;}
+.price_box {overflow: hidden; background: #eee; border: 1px solid #ddd; margin-top: 25px; height: 240px}
+.price_box .title{background: #2980b9; color: #fff;  padding: 15px; font-size: 16px}
+.price_box .price{ padding: 15px; }
+.price .popup-link {background: #ddd}
+.testimonials {background: #eee;  margin-bottom: 15px; }
+.testimonials .title{background: #ddd;  font-size: 16px; padding: 7px 15px}
+.testimonials .desc{ padding: 15px}
+.wpcf7-form input[type="text"], input[type="tel"], input[type="password"], input[type="email"], textarea, select {margin: 0 ; width: 100%}
+.text_title {font-size: 20px; background: #eee; padding: 7px; margin: 7px 0}
+.terms ul {list-style:square; margin-left: 15px}
+.terms ul li {padding: 5px 0}
+.terms ul ul{list-style: disc; margin: 7px 15px 15px;}
+.full_page {min-height: 65vh}
+.our_client i {color: #6175AC; font-size: 16px}
+
+
+/*.popup_footer_content strong {font-size: 14px}*/
+/*
+@media only screen and (max-width: 767px) {
+    .text_outer {margin:  0  }
+}*/
