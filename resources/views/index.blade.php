@@ -3,6 +3,13 @@
 @section('content')
 
 
+
+
+
+
+
+
+
     <!-- Revolution slider area-->
     <div style="" class="text_outer">
                     <span class="typewrite text_inner" data-period="2000" data-type='[ "Hidden Charges", "Incorrect Interest Rate", "Unathorised Fees", "Penalties" ]'>
@@ -79,7 +86,7 @@
                                             <h4>Homeowners</h4>
                                             <div class="image_frame">
                                                 <div class="image_wrapper">
-                                                    <a href="#popup-1" rel="prettyphoto" class="popup-link">
+                                                    <a href="#home" rel="prettyphoto" class="popup-link">
                                                         <div class="mask"></div><img class="scale-with-grid" src="assets/images/house.png" alt="Homeowners" />
                                                     </a>
                                                 </div>
@@ -99,7 +106,7 @@
                                             <h4>Business Owners</h4>
                                             <div class="image_frame">
                                                 <div class="image_wrapper">
-                                                    <a href="#popup-1" rel="prettyphoto" class="popup-link">
+                                                    <a href="#business" rel="prettyphoto" class="popup-link">
                                                         <div class="mask"></div><img class="scale-with-grid" src="assets/images/bar-chart.png" alt="Business Owners" />
                                                     </a>
                                                 </div>

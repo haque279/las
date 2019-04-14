@@ -30,7 +30,7 @@
                             <div class="column one column_accordion ">
                                 <div class="accordion">
                                     <div class="mfn-acc accordion_wrapper open1st">
-
+                                        <br/>
                                         <div class="question">
                                             <div class="title">
                                                 <i class="fas fa-minus acc-icon-plus"></i><i class="fas fa-plus acc-icon-minus"></i> How likely is it that my Bank account has been subject to overcharging?

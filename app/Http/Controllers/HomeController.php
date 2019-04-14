@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use App\Mail\RequestCallback;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -67,6 +68,12 @@ class HomeController extends Controller
         return view('testimonials', compact('title'));
     }
 
+    public function tracker_loan_compensation()
+    {
+        $title = 'tracker-loan-compensation';
+        return view('tracker-loan-compensation', compact('title'));
+    }
+
     public function request_callback(Request $request)
     {
         $data = $request->all();
@@ -113,7 +120,6 @@ class HomeController extends Controller
         };
 
 
-
         $data = new \stdClass();
         $data->name = $request->name;
         $data->you_are = $request->you_are;;
@@ -132,6 +138,16 @@ class HomeController extends Controller
 
         Mail::to($to)->send(new RequestCallback($data));
         return back()->with('success', 'message successfully sent.');
+    }
+
+    public function blog(){
+        $datas = Blog::orderBy('created_at', 'desc')->paginate(10);
+        return view('blog', compact('datas'));
+    }
+
+    public function blog_details($link){
+        $data = Blog::where('link', $link)->first();
+        return view('blog-details', compact('data'));
     }
 
     /**

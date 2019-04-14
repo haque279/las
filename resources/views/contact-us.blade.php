@@ -1,10 +1,9 @@
 @extends('layout/master')
 
 @section('content')
-
-<?php $foter_page = 1; ?>
-
 <div id="Subheader">
+
+
     <div class="container">
         <div class="column one">
             <h1 class="title">Contact Us</h1>
@@ -106,12 +105,11 @@
                                                 I have read and accept Loananalysissolutions  <a href="terms-and-conditions">terms and conditions.</a>
                                             </div>
 
-
+                                                {!! NoCaptcha::renderJs() !!}
+                                                <input type="hidden" name="contact_page" value="contact_page">
 
                                             <div class="column one">
-                                                {!! NoCaptcha::renderJs() !!}
                                                 {!! NoCaptcha::display() !!}
-                                                <input type="hidden" name="contact_page" value="contact_page">
                                             </div>
                                             <div class="column one">
                                                 <input type="submit" value="REQUEST SUBMIT" class="wpcf7-form-control wpcf7-submit" />
@@ -126,7 +124,7 @@
                                 <div class="column_attr ">
                                     <h3>Our address</h3>
                                     <p class="big">
-                                        Loan Analysis Solutions <br>
+                                        Loan Analysis Solutions<br>
                                         Unit W10G Ladytown Business Park, <br> Naas, Co. Kildare.
                                     </p>
                                     <hr class=" hr_color hrmargin_b_30" />

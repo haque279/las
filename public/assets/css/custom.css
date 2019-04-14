@@ -30,6 +30,10 @@
 .terms ul ul{list-style: disc; margin: 7px 15px 15px;}
 .full_page {min-height: 65vh}
 .our_client i {color: #6175AC; font-size: 16px}
+.pagination li {list-style: none; float: left}
+.pagination {text-align: right}
+.pagination li a {display: block; padding: 5px 15px; font-size: 14px; background: #6175AC; color: #fff; margin-left: 3px; text-decoration: none}
+.pagination li  span {display: block; padding: 5px 15px; font-size: 14px; background: #3177A5; color: #fff; margin-left: 3px}
 
 
 /*.popup_footer_content strong {font-size: 14px}*/
