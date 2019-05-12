@@ -141,20 +141,20 @@
 
 @section('page_js')
     <!-- BEGIN PAGE LEVEL PLUGINS -->
-    <script src="/admin/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/jquery-inputmask/jquery.inputmask.min.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/jquery-autonumeric/autoNumeric.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/ios-switch/ios7-switch.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-select2/select2.min.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/bootstrap-tag/bootstrap-tagsinput.min.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/boostrap-clockpicker/bootstrap-clockpicker.min.js" type="text/javascript"></script>
-    <script src="/admin/assets/plugins/dropzone/dropzone.min.js" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/jquery-inputmask/jquery.inputmask.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/jquery-autonumeric/autoNumeric.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/ios-switch/ios7-switch.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-select2/select2.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/bootstrap-tag/bootstrap-tagsinput.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/boostrap-clockpicker/bootstrap-clockpicker.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/plugins/dropzone/dropzone.min.js') }}" type="text/javascript"></script>
     <!-- END PAGE LEVEL PLUGINS -->
     <!-- BEGIN PAGE LEVEL SCRIPTS -->
-    <script src="/admin/assets/js/form_elements.js" type="text/javascript"></script>
+    <script src="{{ asset('/admin/assets/js/form_elements.js') }}" type="text/javascript"></script>
     <!-- END PAGE LEVEL SCRIPTS -->
 @endsection

@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.ico') }}">
 
     <!-- FONTS -->
     <link rel='stylesheet' id='Roboto-css' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
@@ -29,10 +29,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel='stylesheet' id='global-css' href='/assets/css/global.css'>
-    <link rel='stylesheet' id='structure-css' href='/assets/css/structure.css'>
-    <link rel='stylesheet' id='local-css' href='/assets/css/estate.css'>
-    <link rel='stylesheet' id='custom-css' href='/assets/css/custom.css'>
+    <link rel='stylesheet' id='global-css' href="{{ asset('/assets/css/global.css') }}">
+    <link rel='stylesheet' id='structure-css' href="{{ asset('/assets/css/structure.css') }}">
+    <link rel='stylesheet' id='local-css' href="{{ asset('/assets/css/estate.css') }}">
+    <link rel='stylesheet' id='custom-css' href="{{ asset('/assets/css/custom.css') }}">
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -344,24 +344,24 @@
 
     <!-- JS -->
 
-    <script type="text/javascript" src="/assets/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/jquery-2.1.4.min.js') }}"></script>
 
-    <script type="text/javascript" src="/assets/js/mfn.menu.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.plugins.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.jplayer.min.js"></script>
-    <script type="text/javascript" src="/assets/js/animations/animations.js"></script>
-    <script type="text/javascript" src="/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/mfn.menu.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/jquery.plugins.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/jquery.jplayer.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/animations/animations.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/js/scripts.js') }}"></script>
 
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="/assets/plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.video.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/assets/plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 
     <script type="text/javascript">
         var tpj = jQuery;

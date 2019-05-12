@@ -67,12 +67,12 @@
 @section('page_js')
     <!-- END CORE TEMPLATE JS -->
     <!-- BEGIN PAGE LEVEL PLUGINS -->
-    <script src="admin/assets/plugins/bootstrap-select2/select2.min.js" type="text/javascript"></script>
-    <script src="admin/assets/plugins/jquery-datatable/js/jquery.dataTables.min.js" type="text/javascript"></script>
-    <script src="admin/assets/plugins/jquery-datatable/extra/js/dataTables.tableTools.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="admin/assets/plugins/datatables-responsive/js/datatables.responsive.js"></script>
-    <script type="text/javascript" src="admin/assets/plugins/datatables-responsive/js/lodash.min.js"></script>
+    <script src="{{ asset('admin/assets/plugins/bootstrap-select2/select2.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('admin/assets/plugins/jquery-datatable/js/jquery.dataTables.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('admin/assets/plugins/jquery-datatable/extra/js/dataTables.tableTools.min.js') }}" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/plugins/datatables-responsive/js/datatables.responsive.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('admin/assets/plugins/datatables-responsive/js/lodash.min.js') }}"></script>
     <!-- END PAGE LEVEL JS INIT -->
-    <script src="admin/assets/js/datatables.js" type="text/javascript"></script>
+    <script src="{{ asset('admin/assets/js/datatables.js') }}" type="text/javascript"></script>
     <!-- END JAVASCRIPTS -->
 @endsection

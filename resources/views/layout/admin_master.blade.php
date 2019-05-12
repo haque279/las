@@ -8,33 +8,33 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN PLUGIN CSS -->
-    <link href="/admin/assets/plugins/bootstrap-tag/bootstrap-tagsinput.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/dropzone/css/dropzone.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/ios-switch/ios7-switch.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="/admin/assets/plugins/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/admin/assets/plugins/boostrap-clockpicker/bootstrap-clockpicker.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-tag/bootstrap-tagsinput.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/dropzone/css/dropzone.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-timepicker/css/bootstrap-timepicker.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/ios-switch/ios7-switch.css') }}" rel="stylesheet" type="text/css" media="screen">
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-select2/select2.css') }}" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ asset('/admin/assets/plugins/boostrap-clockpicker/bootstrap-clockpicker.min.css') }}" rel="stylesheet" type="text/css" media="screen" />
     <!-- END PLUGIN CSS -->
 
 
-    <link href="/admin/assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/admin/assets/plugins/jquery-datatable/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/datatables-responsive/css/datatables.responsive.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ asset('/admin/assets/plugins/font-awesome/css/font-awesome.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrap-select2/select2.css') }}" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ asset('/admin/assets/plugins/jquery-datatable/css/jquery.dataTables.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/datatables-responsive/css/datatables.responsive.css') }}" rel="stylesheet" type="text/css" media="screen" />
     <!-- END PLUGIN CSS -->
     <!-- BEGIN PLUGIN CSS -->
-    <link href="/admin/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/admin/assets/plugins/bootstrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/bootstrapv3/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/pace/pace-theme-flash.css') }}" rel="stylesheet" type="text/css" media="screen" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrapv3/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/bootstrapv3/css/bootstrap-theme.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="/admin/assets/plugins/animate.min.css" rel="stylesheet" type="text/css" />
-    <link href="/admin/assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/animate.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/assets/plugins/jquery-scrollbar/jquery.scrollbar.css') }}" rel="stylesheet" type="text/css" />
     <!-- END PLUGIN CSS -->
     <!-- BEGIN CORE CSS FRAMEWORK -->
-    <link href="/admin/webarch/css/webarch.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/admin/webarch/css/webarch.css') }}" rel="stylesheet" type="text/css" />
     <!-- END CORE CSS FRAMEWORK -->
 </head>
 <!-- END HEAD -->
@@ -157,19 +157,19 @@
     <!-- END CHAT -->
 </div>
 <!-- END CONTAINER -->
-<script src="/admin/assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/pace/pace.min.js') }}" type="text/javascript"></script>
 <!-- BEGIN JS DEPENDECENCIES-->
-<script src="/admin/assets/plugins/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/bootstrapv3/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-block-ui/jqueryblockui.min.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-numberAnimate/jquery.animateNumbers.js" type="text/javascript"></script>
-<script src="/admin/assets/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery/jquery-1.11.3.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/bootstrapv3/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery-block-ui/jqueryblockui.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery-unveil/jquery.unveil.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery-numberAnimate/jquery.animateNumbers.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/plugins/jquery-validation/js/jquery.validate.min.js') }}" type="text/javascript"></script>
 <!-- END CORE JS DEPENDECENCIES-->
 <!-- BEGIN CORE TEMPLATE JS -->
-<script src="/admin/webarch/js/webarch.js" type="text/javascript"></script>
-<script src="/admin/assets/js/chat.js" type="text/javascript"></script>
+<script src="{{ asset('/admin/webarch/js/webarch.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/admin/assets/js/chat.js') }}" type="text/javascript"></script>
 <!-- END CORE TEMPLATE JS -->
 
 
